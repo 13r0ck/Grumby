@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="bu_beep_data" version="1.3.0" audacityversion="2.4.1" sel0="0.0000000000" sel1="0.3329931973" vpos="0" h="0.0000000000" zoom="2932.1561468792" rate="44100.0" snapto="on" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="TRACKNUMBER" value="5"/>
+		<tag name="TITLE" value="Withdrawal Question Diamond"/>
+		<tag name="GENRE" value="Electronic"/>
+		<tag name="YEAR" value="2020"/>
+		<tag name="ARTIST" value="Grumbot"/>
+	</tags>
+	<wavetrack name="Audio Track" isSelected="0" height="150" minimized="0" channel="2" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0"/>
+	<wavetrack name="Hermitcraft 7_ Episode 24 - GRUMBOT LIVES!" isSelected="0" height="150" minimized="0" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.11099773" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="9790">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1e060.au" len="9790" min="-0.030735" max="0.026924" rms="0.009613"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="4895">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1e263.au" len="4895" min="-0.027151" max="0.028474" rms="0.010279"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Hermitcraft 7_ Episode 24 - GRUMBOT LIVES!" isSelected="0" height="150" minimized="0" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.11099773" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="9790">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1e58f.au" len="9790" min="-0.027211" max="0.023322" rms="0.008293"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="4895">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1ec84.au" len="4895" min="-0.030213" max="0.031916" rms="0.01202"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
