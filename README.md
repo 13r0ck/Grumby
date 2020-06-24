@@ -1,11 +1,10 @@
 # Grumby
 ##### (The name is a combination of Grumbot and keyboard)
 
-![Video Demonstration](https://github.com/13r0ck/Grumby/blob/dev/dev_saves/4mumbo.gif?raw=true | width=100)
+![Video Demonstration](https://github.com/13r0ck/Grumby/blob/dev/dev_saves/4mumbo.gif?raw=true)
 
 ## What does Grumby do?
-- Grumby randomizes block placement in Minecraft by randomly selecting a slot from the hotbar.
-Grumby chooses a new block after each click of the mouse.
+- Grumby randomizes block placement in Minecraft by randomly selecting a slot from the hotbar after each right mouse click.
 
 - Grumby understands that this can be iritating when not wanted, so Grumby can be deactivated at any time by pressing a hotkey. By default pressing the 'CTRL' key and 'G' will deactivate Grumby. Though this is configurable to any key that you may prefer.
 
