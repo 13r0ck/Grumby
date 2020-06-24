@@ -44,7 +44,7 @@ def press_random_num_key():
     global is_on, randmin, randmax
     if is_on:
         randKey = str(random.randrange(randmin,randmax+1))
-        keyboard.write(randKey)
+        keyboard.send(str(randKey))
 
 # Change background function called by other functions
 def change_background(background_type):
@@ -171,7 +171,7 @@ except:
     toggle_hotkey = keyboard.add_hotkey(hotkey, toggle_grumby)
 
 # Calls the press_random_num_key function for every mouse click. The function does nothing if Grumby is deactivated, but it is called every mouse click if grumby is open
-mouse.on_click(press_random_num_key)
+mouse.on_right_click(press_random_num_key)
 
 
 ########## - Create the GUI - ##########
