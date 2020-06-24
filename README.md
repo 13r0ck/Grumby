@@ -10,3 +10,8 @@
 
 - You can tell Grumby what range of keys to press.
 For example, you can keep your sword in the hotbar slot 1 and the blocks you would like to place randomly in slots 2-9. This allows you to build with random blocks, then deactivate Grumby with the hotkey, then kill a Creeper, then get right back to random block placing!
+
+## Want to try Grumby?
+[Click here!](https://github.com/13r0ck/Grumby/blob/master/installer/Grumby_Installer.msi?raw=true) to download the windows installer.
+
+Linux is supported, just run `sudo ./grumby_linux.py` from the src folder. Grumby will be uploaded to repositories soon!
