@@ -34,7 +34,7 @@ def toggle_grumby():
 # Save the mute state of Grumby
 def save_grumby_state():
     global hotkey, randmin, randmax, sound_ChkBtn_state
-    _sound_ChkBtn_state = "True" if sound_ChkBtn_state else "False"
+    _sound_ChkBtn_state = "True" if sound_ChkBtn_state.get() else "False"
     saveFile = open('../config/hotkey.txt', "w")
     saveFile.write(f"{hotkey}\n{randmin}\n{randmax}\n{str(_sound_ChkBtn_state)}")
     saveFile.close()
@@ -51,6 +51,7 @@ def change_background(background_type):
     global background_label, style
     if background_type == "activated":
         background = PhotoImage(file = "../images/activated.png")
+        window.iconbitmap('../images/activated.ico')
         style.configure('W.TButton', background="#009933", foreground="black", font=('Source Code Pro', 11))
         style.configure('TCheckbutton', background="#009933", foreground="white", font=('Source Code Pro', 11))
         style.configure('TCombobox', background="white", foreground="black", font=('Source Code Pro', 11))
@@ -61,6 +62,7 @@ def change_background(background_type):
             background = PhotoImage(file = "../images/deactivated.png")
         elif background_type == "recording":
             background = PhotoImage(file = "../images/recording.png")
+        window.iconbitmap('../images/deactivated.ico')
         style.configure('W.TButton', background="black", foreground="black", font=('Source Code Pro', 11))
         style.configure('TCheckbutton', background="black", foreground="white", font=('Source Code Pro', 11))
         style.configure('TCombobox', background="white", foreground="black", font=('Source Code Pro', 11))
