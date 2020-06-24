@@ -1,6 +1,8 @@
 # Grumby
 ##### (The name is a combination of Grumbot and keyboard)
 
+![Video Demonstration](https://github.com/13r0ck/Grumby/blob/dev/dev_saves/4mumbo.gif?raw=true | width=100)
+
 ## What does Grumby do?
 - Grumby randomizes block placement in Minecraft by randomly selecting a slot from the hotbar.
 Grumby chooses a new block after each click of the mouse.
